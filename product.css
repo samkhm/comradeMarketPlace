@@ -1,0 +1,212 @@
+body{
+    display:flex;
+    flex-direction: column;
+}
+h1{
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.block-1{
+    width: 100%;
+    height: 300px;
+    
+    background-image: url('image4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+   align-items: center;
+}
+.block-1 img{
+    width: 10%;
+    height: 30%;
+    position: absolute;
+    top: 5%;
+    left: 3%;
+
+}
+.block-1 h1{
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    text-transform: capitalize;
+    font-size: 50px;
+}
+.block-1 .line{
+    border: solid black 1px;
+    position: absolute;
+    top: 60%;
+    left: 43%;
+    width: 20%;
+}
+.block-1 p{
+    position: absolute;
+    top: 58%;
+    left: 43%;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.furniture{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+.furniture .fun1{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    padding: 5px;
+    justify-content: space-between;
+}
+.fun1 .item{
+    width: 23%;
+    height: 200px;
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.item a{
+    width: 30%;
+    padding: 5px;
+    color: black;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 35%;
+    text-transform: capitalize;
+
+}
+.item a:hover{
+    background-color: blueviolet;
+    color: white;
+
+}
+
+.clothings{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+.clothings .fun1{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    padding: 5px;
+    justify-content: space-between;
+}
+.fun1 .item{
+    width: 23%;
+    height: 200px;
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.cook{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+.cook .fun1{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    padding: 5px;
+    justify-content: space-between;
+}
+.fun1 .item{
+    width: 23%;
+    height: 200px;
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.beddings{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+.beddings .fun1{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    padding: 5px;
+    justify-content: space-between;
+}
+.fun1 .item{
+    width: 23%;
+    height: 200px;
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.electronics{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+.electronics .fun1{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    padding: 5px;
+    justify-content: space-between;
+}
+.fun1 .item{
+    width: 23%;
+    height: 200px;
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 5px;
+}
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: blue;
+}
